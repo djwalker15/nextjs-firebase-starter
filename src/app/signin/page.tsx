@@ -3,7 +3,7 @@ import signIn from "@/firebase/auth/signIn";
 import { useRouter } from 'next/navigation';
 import { useState } from "react";
 
-function Page(): JSX.Element {
+export default function Page() {
   const [ email, setEmail ] = useState( '' );
   const [ password, setPassword ] = useState( '' );
   const router = useRouter();
@@ -76,5 +76,3 @@ function Page(): JSX.Element {
     </div>
   );
 }
-
-export default Page;

@@ -3,7 +3,7 @@ import { useAuthContext } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
-function Page(): JSX.Element {
+export default function Page() {
   // Access the user object from the authentication context
   // const { user } = useAuthContext();
   const { user } = useAuthContext() as { user: any }; // Use 'as' to assert the type as { user: any }
@@ -21,5 +21,3 @@ function Page(): JSX.Element {
     <h1>Only logged-in users can view this page</h1>
   );
 }
-
-export default Page;
