@@ -1,14 +1,14 @@
 env:
   # Get these values from the Firebase console
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
-    value: "AIzaSyCK5Dc3Yj1RPoqtHy4ZCEjz6FxSS1eW70Q"
+    secret: firebase-api-key
   - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-    value: "stackgenalphafire.firebaseapp.com"
+    secret: firebase-auth-domain
   - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
-    value: "stackgenalphafire"
+    secret: firebase-project-id
   - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-    value: "stackgenalphafire.firebasestorage.app"
+    secret: firebase-storage-bucket
   - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-    value: "661474290540"
+    secret: firebase-messaging-sender-id
   - variable: NEXT_PUBLIC_FIREBASE_APP_ID
-    value: "1:661474290540:web:71a1d099ccb8955e28e149"
+    secret: firebase-app-id
