@@ -17,7 +17,7 @@
     "eslint": "9.32.0",
     "eslint-config-next": "15.3.3",
     "firebase": "^12.0.0",
-    "next": "15.3.1",
+    "next": "15.5.2",
     "nextjs-13-firebase-starter": "file:",
     "postcss": "8.5.4",
     "react": "19.1.0",
