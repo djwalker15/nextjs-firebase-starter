@@ -11,7 +11,7 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.4",
     "@types/node": "25.6.0",
-    "@types/react": "19.2.14",
+    "@types/react": "19.2.16",
     "@types/react-dom": "19.2.3",
     "autoprefixer": "10.4.27",
     "eslint": "10.3.0",
@@ -20,7 +20,7 @@
     "next": "16.2.4",
     "nextjs-13-firebase-starter": "file:",
     "postcss": "8.5.13",
-    "react": "19.2.5",
+    "react": "19.2.7",
     "react-dom": "19.2.5",
     "tailwindcss": "^4.2.1",
     "typescript": "6.0.3"
