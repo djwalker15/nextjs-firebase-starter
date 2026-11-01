@@ -20,7 +20,7 @@
     "next": "16.3.6",
     "nextjs-13-firebase-starter": "file:",
     "postcss": "8.5.28",
-    "react": "19.3.0",
+    "react": "19.3.1",
     "react-dom": "19.3.0",
     "tailwindcss": "^4.3.2",
     "typescript": "7.0.2"
